@@ -9,6 +9,20 @@ img:hover {
   transform: scale(1.1);
 }
 
+.parent1 {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.parent2 {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
 /* body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -53,22 +67,3 @@ img:hover {
 .eight {
   grid-area: eight;
 } */
-.parent1 {
-  margin: 30px;
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-
-  align-content: center;
-}
-
-.parent2 {
-  margin: 30px;
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-
-  align-content: center;
-}
